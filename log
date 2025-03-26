@@ -96,3 +96,9 @@ mi., 26 de mar. de 2025 14:11:53:
  1 file changed, 2 insertions(+), 1 deletion(-)
  tests:  0|0
 4306c45
+mi., 26 de mar. de 2025 14:12:29: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+cc3d5fd
