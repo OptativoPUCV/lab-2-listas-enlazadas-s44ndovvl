@@ -43,3 +43,23 @@ mi., 26 de mar. de 2025  1:58:01:
  tests:  1|5
 total_score: 10/70
 a4bb678
+mi., 26 de mar. de 2025 13:56:53: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+list.c: In function 'firstList':
+list.c:42:44: error: 'return' with no value, in function returning non-void [-Wreturn-mismatch]
+   42 |     if(list == NULL || list->head == NULL) return;
+      |                                            ^~~~~~
+list.c:41:8: note: declared here
+   41 | void * firstList(List * list) {
+      |        ^~~~~~~~~
+list.c: In function 'nextList':
+list.c:48:44: error: 'return' with no value, in function returning non-void [-Wreturn-mismatch]
+   48 |     if(list == NULL || list->head == NULL) return;
+      |                                            ^~~~~~
+list.c:47:8: note: declared here
+   47 | void * nextList(List * list) {
+      |        ^~~~~~~~
+Compilation failed
+f79bd13
