@@ -63,3 +63,9 @@ list.c:47:8: note: declared here
       |        ^~~~~~~~
 Compilation failed
 f79bd13
+mi., 26 de mar. de 2025 13:58:00: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  1|5
+total_score: 10/70
+e8208fe
