@@ -23,3 +23,12 @@ mi., 26 de mar. de 2025  1:54:22:
  1 file changed, 2 insertions(+), 2 deletions(-)
  tests:  0|0
 580b164
+mi., 26 de mar. de 2025  1:56:31: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c:59:2: error: expected identifier or '(' before '.' token
+   59 | }.
+      |  ^
+Compilation failed
+7ba26f7

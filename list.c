@@ -50,13 +50,13 @@ void * nextList(List * list) {
 
 void * lastList(List * list) {
     list->current = list->tail;
-    return list->tail;
+    return list->current;
 }
 
 void * prevList(List * list) {
     list->current = list->current->prev;
     return list->current;
-}
+}.
 
 void pushFront(List * list, void * data) {
     Node* newNode = createNode(data);
