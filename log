@@ -190,3 +190,8 @@ ju., 27 de mar. de 2025  1:32:22:
  1 file changed, 20 insertions(+), 1 deletion(-)
  tests:  0|0
 6eed9d7
+ju., 27 de mar. de 2025  1:37:14: 
+ list.c | 15 ++++-----------
+ 1 file changed, 4 insertions(+), 11 deletions(-)
+ tests:  0|0
+fd6d078

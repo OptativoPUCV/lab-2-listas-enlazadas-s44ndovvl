@@ -104,18 +104,11 @@ void * popCurrent(List * list) {
     Node* posterior = list->current->next;
     anterior->next = posterior;
 
-    free(list->current);
-    if(posterior) 
-    {
-        posterior->prev = anterior;
-        list->current = posterior;
-    }
-    else 
-    {
-        list->tail = anterior;
-        list->current = anterior;
-    }
+    if(posterior) posterior->prev = anterior;
+    else list->tail = anterior;
 
+    free(list->current);
+    list->current=NULL;
 
     return dataNode;
 }
