@@ -103,7 +103,8 @@ void * popCurrent(List * list) {
 
     Node* anterior = list->current->prev;
     Node* posterior = list->current->next;
-    //anterior->next = posterior;
+    if(anterior) anterior->next = posterior;
+    else list->head = posterior;
 
     if(posterior) posterior->prev = anterior;
     else list->tail = anterior;
