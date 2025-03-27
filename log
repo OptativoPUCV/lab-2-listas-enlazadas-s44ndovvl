@@ -156,3 +156,9 @@ ju., 27 de mar. de 2025  0:35:02:
  1 file changed, 2 insertions(+), 2 deletions(-)
  tests:  0|0
 37f4b8d
+ju., 27 de mar. de 2025  0:37:49: 
+ list.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  9|3
+total_score: 35/70
+27cf143
