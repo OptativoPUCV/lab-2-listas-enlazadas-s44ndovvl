@@ -195,3 +195,16 @@ ju., 27 de mar. de 2025  1:37:14:
  1 file changed, 4 insertions(+), 11 deletions(-)
  tests:  0|0
 fd6d078
+ju., 27 de mar. de 2025  1:40:59: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function 'popCurrent':
+list.c:101:47: error: 'return' with no value, in function returning non-void [-Wreturn-mismatch]
+  101 |     if(list == NULL || list->current == NULL) return;
+      |                                               ^~~~~~
+list.c:100:8: note: declared here
+  100 | void * popCurrent(List * list) {
+      |        ^~~~~~~~~~
+Compilation failed
+6efd28e
