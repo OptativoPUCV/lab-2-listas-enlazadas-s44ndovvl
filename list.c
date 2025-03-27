@@ -98,7 +98,26 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {
-    return NULL;
+    void *dataNode = list->current->data;
+
+    Node* anterior = list->current->prev;
+    Node* posterior = list->current->next;
+    anterior->next = posterior;
+
+    free(list->current);
+    if(posterior) 
+    {
+        posterior->prev = anterior;
+        list->current = posterior;
+    }
+    else 
+    {
+        list->tail = anterior;
+        list->current = anterior;
+    }
+
+
+    return dataNode;
 }
 
 void cleanList(List * list) {
